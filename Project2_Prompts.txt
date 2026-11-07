@@ -1,0 +1,28 @@
+BSERC GENAI INTERNSHIP — WEEK 1 PROJECT 2
+Topic: BTech student productivity, DSA learning and practical student budgeting
+
+PROMPT 1 — DSA SPRINT DASHBOARD
+Who: Me, a BTech student revising data structures and algorithms.
+What: Build a polished revision dashboard with a checklist, progress indicator, focus timer, flip cards, scored quiz, and complexity filter.
+Do: Make at least five real interactions: check/uncheck topics, reset checklist, start/pause/reset timer, flip cards and move between cards, answer quiz questions and restart, filter complexity rows.
+Rules: One complete HTML file with inline CSS and JavaScript; no external libraries or network dependency; mobile responsive; every button must work; use clear beginner-friendly DSA facts; include a note that it is a study aid.
+
+PROMPT 2 — STUDENT MONEY LAB
+Who: Me, a college student learning to manage a monthly budget.
+What: Show category spending, sample transactions, possible duplicate payments and a savings target.
+Do: Add category filtering, merchant search, reset filters, savings slider, editable income, duplicate checker, add/delete transaction and restore sample data.
+Rules: One complete HTML file; use fictional sample data only; show INR; make duplicate warnings non-definitive and require manual review; no banking connection or external dependencies; mobile responsive; every button must work.
+
+PROMPT 3 — DSA PATH FINDER
+Who: Me, a BTech student choosing what DSA topic to study next.
+What: Compare study options and rank them based on priorities.
+Do: Add priority sliders, available-time selection, live ranking, option comparison, session-plan generator, editable decision notes, reset control.
+Rules: One complete HTML file; explain that rankings use illustrative scores and are not objective truth; mobile responsive; no external dependencies; all controls must work.
+
+IMPROVEMENT / TEST PROMPTS USED AS CHECKLIST
+1. Test every button and control; fix anything that does not update the page.
+2. Check that each page opens offline by double-clicking its .html file.
+3. Check a narrow/mobile viewport; ensure the layout stacks and controls remain usable.
+4. Check empty input, invalid amount and same-option comparison cases.
+5. Keep sample data fictional and clearly label it.
+6. Confirm the ZIP includes all three HTML files and this prompt file.
