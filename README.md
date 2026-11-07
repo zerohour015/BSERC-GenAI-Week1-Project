@@ -1,35 +1,49 @@
 # BSERC GenAI Internship — Week 1 Projects
 
-This repository contains the three interactive HTML pages created for Project 2, "Thinking in HTML", plus the prompts used to generate and refine them. It also includes the Project 1 NotebookLM setup materials.
+**Owner:** [zerohour015](https://github.com/zerohour015)  
+**Repository:** [BSERC-GenAI-Week1-Project](https://github.com/zerohour015/BSERC-GenAI-Week1-Project)
 
-## Project 2 — Thinking in HTML
-
-Open any HTML file directly in a modern browser. Each page is a standalone file with inline HTML, CSS, and JavaScript; no installation, API key, or server is required.
-
-1. **DSA Sprint Dashboard** — revision checklist, focus timer, flashcards, scored quiz, and complexity filter.
-2. **Student Money Lab** — fictional student spending data, category and merchant filters, savings-target slider, duplicate-payment review, and transaction controls.
-3. **DSA Path Finder** — priority sliders, live study-route ranking, comparison, session-plan generator, and decision notes.
-
-### Files
-- `Project2_HTML_Pages/01_DSA_Sprint_Dashboard.html`
-- `Project2_HTML_Pages/02_Student_Money_Lab.html`
-- `Project2_HTML_Pages/03_DSA_Path_Finder.html`
-- `Project2_Prompts.txt`
-
-All money data is fictional sample data. The possible-duplicate function only flags matching merchant, amount, and date; users must check receipts themselves.
+This repository contains the prepared deliverables for both projects in the BSERC Week 1 brief.
 
 ## Project 1 — Source-grounded AI Notebook
 
-`Project1_NotebookLM_Setup.md`, `Project1_Source_Register.md`, and `Project1_Verification_Log.md` provide a setup plan, source suggestions, prompts, and a log to complete in Google NotebookLM. The actual NotebookLM notebook and its share link must be created and verified in the student's Google account; this repository does not claim that account-specific step has been completed.
+Folder: [`Project1_NotebookLM/`](Project1_NotebookLM/)
 
-## QA notes
+Prepared materials:
+- [NotebookLM setup guide](Project1_NotebookLM/Project1_NotebookLM_Setup.md) — notebook title, student track, source import plan, source-grounding instructions, test prompts and feature checklist.
+- [Source register](Project1_NotebookLM/Project1_Source_Register_and_Setup.md) — seven recommended MIT OpenCourseWare sources across web pages, PDF lecture notes and YouTube lectures.
+- [DSA study guide](Project1_NotebookLM/DSA_Study_Guide.md) — insertion sort, binary insertion sort, merge sort recurrence and BST operations, grounded to the listed lecture sources.
+- [12-question quiz and answer key](Project1_NotebookLM/DSA_Quiz_and_Answer_Key.md).
+- [16 flashcards](Project1_NotebookLM/DSA_Flashcards.csv).
+- [Mermaid mind-map source](Project1_NotebookLM/DSA_Mind_Map.md).
+- [Responsive infographic](Project1_NotebookLM/DSA_Infographic.html).
+- [Eight-slide interactive browser deck](Project1_NotebookLM/DSA_Slide_Deck.html).
+- Audio narration script and video storyboard.
+- [Notebook verification log](Project1_NotebookLM/Project1_Verification_Log.md).
 
-See `Project2_Three_Round_QA_Report.md` for the code/structure audit and the remaining manual browser checks. Please test the interactive controls on a laptop and phone before presenting or submitting.
+**Important distinction:** These are prepared companion assets and NotebookLM setup materials. The actual NotebookLM notebook has not been created in the owner's Google account from this repository. NotebookLM Studio outputs (Audio/Video Overview, Studio mind map, Studio quiz/flashcards/infographic/slide deck), citation clicks, and the public NotebookLM share link must still be generated and verified inside NotebookLM. Do not treat the prepared scripts, HTML files or quiz as proof that those NotebookLM features were used.
 
-## BSERC submission
+## Project 2 — Thinking in HTML
 
-The internship PDF calls for two separate submissions at https://ai.bserc.org/projects:
-- Project 1: the publicly viewable NotebookLM share link.
-- Project 2: a ZIP containing the three final HTML files and the prompts file (under 10 MB).
+Folder: [`Project2_HTML_Pages/`](Project2_HTML_Pages/)
 
-This repository is the public code location; it does not replace the separate portal submissions.
+Three standalone, responsive HTML pages, with inline CSS and JavaScript:
+1. [DSA Sprint Dashboard](Project2_HTML_Pages/01_DSA_Sprint_Dashboard.html) — topic checklist, progress, focus timer, flashcards, scored quiz and complexity filter.
+2. [Student Money Lab](Project2_HTML_Pages/02_Student_Money_Lab.html) — fictional sample spending, category/search filters, savings slider, possible-duplicate review, and add/delete/restore controls.
+3. [DSA Path Finder](Project2_HTML_Pages/03_DSA_Path_Finder.html) — priority sliders, live study-route rankings, comparison, plan generator and decision notes.
+
+Also included:
+- [Prompts file](Project2_Prompts.txt)
+- [Three-round QA report](Project2_Three_Round_QA_Report.md)
+
+All three pages are standalone and do not require external libraries, APIs, or a server. Student Money Lab uses fictional sample data only. Its duplicate checker flags matching merchant/amount/date combinations for human review; it does not access real banking data and a match is not proof of a duplicate.
+
+## Test and submission notes
+
+The QA report records static syntax/structure checks and the outstanding manual browser/phone interaction checklist. Run those manual checks before claiming full device testing.
+
+The BSERC brief calls for two separate portal submissions at https://ai.bserc.org/projects:
+- **Project 1:** paste the viewable NotebookLM share link in the Demo / Video / Presentation link field.
+- **Project 2:** upload a ZIP containing the three final HTML files and `Project2_Prompts.txt` (under 10 MB).
+
+The GitHub repository is a code/evidence location; it does not replace either required BSERC submission.
